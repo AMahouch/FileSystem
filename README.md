@@ -1,12 +1,12 @@
-# FileSystem
-User space portable index-allocated file system. Users can create filesystem iamge, list files in filesystem, add/remove files, and save filesystem. Specific file system operations provided below. 
+# File System
+User space portable index-allocated file system. Users can create file system image, list files in file system, add/remove files, and save file system. Specific file system operations provided below. 
 
 ## Specifications:
 * Supports 256 files
 * Maximum file size of 1048576 B
 * 2<sup>26</sup> bytes of drive space in a disk image
-* Filenmaes of 64 characters
-* Filesystem block size of 1024 B
+* File names of 64 characters
+* File system block size of 1024 B
 * 65536 blocks
 * Index allocation scheme
 ## Supports the following commands:
@@ -32,10 +32,4 @@ User space portable index-allocated file system. Users can create filesystem iam
 
 ## How to run:
 Build program with
-```
-make
-```
-and execute with
-```
-./mfs
-```
+```make``` and execute with ```./mfs```.
